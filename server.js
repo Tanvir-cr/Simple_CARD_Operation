@@ -1,5 +1,4 @@
-// Load environment variables from .env (if present)
-require('dotenv').config();
+const dotenv = require('dotenv').config();
 
 const app = require('./app');
 
