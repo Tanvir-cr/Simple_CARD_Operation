@@ -1,4 +1,4 @@
-const store = require('../data/store');
+const store = require('../../data/store');
 
 function createUser({ name, email, password }) {
 	const existing = store.users.find(u => u.email === email);

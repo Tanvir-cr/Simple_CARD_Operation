@@ -1,6 +1,6 @@
 const express = require('express');
 
-const regRoute = require('./src/registration/registration.route');
+const regRoute = require('./src/model/registration/registration.route');
 const authRoute = require('./src/auth/auth.route');
 const userRoute = require('./src/model/user/user.route');
 const cardRoute = require('./src/card/card.route');
